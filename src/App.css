@@ -3,11 +3,16 @@
   src: url("./resource/fonts/Arvo-Regular.ttf") 
    
 }
+:root {
+  --animate-duration: 2s;
+  --animate-delay: 2s;
+}
 body{
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
 header{
   background: #ffd20b;
   padding: 10px;
@@ -22,6 +27,7 @@ header{
 }
 .header1{
   padding:2px 10px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +48,7 @@ header{
  border: none !important;
  min-width: 2.5% !important;
 }
+
 .cart{
   display: flex;
 
@@ -99,4 +106,40 @@ header{
 #drop1{
   border: #0f0f0f23 solid 2px;
   padding: 5px 10px;
+}
+#intro{
+width: 100%;
+display: flex;
+align-items: center;
+padding-left: 15%;
+height: 750px;
+background-image: url("/src/resource/bg1.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.titleintt{
+  font-size: 4em;
+}
+.line{
+  height: 4px;
+  width: 200px;
+  background: #ffd20b;
+}
+.soustitle{
+  font-family: "a1";
+  font-weight: 300;
+  padding:  0;
+  margin: 0;
+  color: #4b4b4b93;
+}
+.dtitle{
+  font-family: "a1";
+  font-weight: 600;
+  font-style: italic;
+  padding: 10px 0;
+  margin: 0;
+  color: #4b4b4b93;
+}
+#intro1{
+  background: #f0f1f3;
 }
