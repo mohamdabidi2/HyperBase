@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "avero1";
+    src: url("./resource/fonts/Arvo-Regular.ttf") 
+     
+  }
+  @font-face {
+    font-family: "avero2";
+    src: url("./resource/fonts/Arvo-Italic.ttf") 
+     
+  }
+  @font-face {
+    font-family: "avero3";
+    src: url("./resource/fonts/Arvo-Bold.ttf") 
+     
+  }
+  @font-face {
+    font-family: "avero4";
+    src: url("./resource/fonts/Arvo-BoldItalic.ttf") 
+     
+  }
